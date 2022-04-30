@@ -10,5 +10,5 @@ Set environment variable `SPOONACULAR_API` in order to use API
 ## Output files
 All output files are store in `html_page` folder
 
-## Output for example from task description
+## Output for example
 ![Alt text](/html_pages/exampleHtmlFile.png "/html_pages/exampleHtmlFile.png")
