@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MEALS</title>
+</head>
+<body>
+    <main>
+        <h1>All meals</h1>
+        {% for meal in meals %}
+        <br>
+    <div> Name: {{ meal.title }} <br>
+            <img src="{{ meal.image }}" alt="picture"> <br>
+            Used ingredients: {{ meal.used_ingredients }} <br>
+            Missed ingredients: {{ meal.missed_ingredients }} <br>
+            Unsed ingredients: {{ meal.unused_ingredients }} <br>
+        </div>
+        <br>
+        {% endfor %}
+    </main>
+</body>
+</html>
